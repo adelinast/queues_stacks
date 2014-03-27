@@ -10,7 +10,6 @@ class Stack{
         ~Stack();
         void push(T data);
         T pop();
-		T top();
 		bool empty();
     private:
         Node *m_head;

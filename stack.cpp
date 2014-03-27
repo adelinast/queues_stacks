@@ -49,18 +49,6 @@ T Stack<T>::pop()
 }
 
 template<typename T>
-T Stack<T>::top()
-{
-    // remove first
-    if (m_head == NULL)
-    {
-        return NULL;
-    }
-
-    return m_head->data;
-}
-
-template<typename T>
 bool Stack<T>::empty()
 {
 	return m_head == NULL;

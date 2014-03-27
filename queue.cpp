@@ -24,11 +24,6 @@ void Queue<T>::enqueue(T item)
 template<typename T>
 T Queue<T>::dequeue()
 {
-	//if (m_stack2->empty() && m_stack1->empty())
-	{
-		//return NULL;
-	}
-
 	if (m_stack2->empty())
 	{
 		
